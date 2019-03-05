@@ -18,7 +18,10 @@
 - Unsecure ```valet unsecure repo-name```
 
 ### Frontend
-- Use https://github.com/tj/n to manage nodejs and npm
+- Use https://github.com/tj/n to manage nodejs and npm. Make sure you are using the latest version of n
 - node.js@v10.15.2
 - npm@6.4.1
-- Install all frontend packages as devDependencies ie ```npm install package-name --save-dev```
+- Run ```npm install`` to install all frontend dependencies
+- Install all frontend packages as dependencies ie ```npm install package-name --save```
+- Run ```npm run dev``` or ```npm run watch``` in dev
+- Run ```npm run prod``` for production
