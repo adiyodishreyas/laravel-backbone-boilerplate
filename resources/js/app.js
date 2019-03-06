@@ -7,4 +7,4 @@
 
 require('./bootstrap');
 
-require('./src/sample/widget');
+require('./src/sample/render');

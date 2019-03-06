@@ -1,6 +1,8 @@
 var _ = require('underscore');
 var Backbone = require('backbone');
 var ParentTemplate = require('../template/parent-template.html');
+
+//Component css can be required here
 require('../style/parent-style.scss');
 
 var ParentView = Backbone.View.extend({
